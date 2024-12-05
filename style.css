@@ -255,9 +255,9 @@ nav .btn {
     }
 
     .tv video {
-        width: 23em;
+        width: 19em;
         right: 50px;
-        top: 70px;
+        top: 60px;
     }
 
     #sec-video {
@@ -336,9 +336,9 @@ nav .btn {
 
     .tv video {
         position: absolute;
-        width: 13em;
-        left: 39.5px;
-        top: 46.5px;
+        width: 13.5em;
+        left: 38.2px;
+        top: 45px;
     }
 
     #small-txt {
