@@ -10,7 +10,6 @@ body {
     background-color: black;
 }
 
-
 .netflix-logo {
     width: 10em;
     position: relative;
@@ -53,7 +52,6 @@ nav .btn {
 
 .get-started {
     height: calc(100% - 70px);
-    /* height: 100%; */
     color: white;
     display: flex;
     flex-direction: column;
@@ -82,7 +80,7 @@ nav .btn {
     font-size: 15.5px;
 }
 
-.get-started .member-detail {
+.member-detail {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -90,15 +88,15 @@ nav .btn {
     align-items: center;
 }
 
-.get-started .member-detail input {
+.member-detail input {
     border: 1px solid rgb(100, 98, 98);
     width: 25em;
     padding: 14px;
     color: white;
-    background-color: #00000085;
+    background-color: #0000004f;
 }
 
-.get-started .member-detail input::placeholder {
+.member-detail input::placeholder {
     font-family: "Open Sans", serif;
     color: rgb(167, 167, 167);
 }
@@ -132,10 +130,10 @@ nav .btn {
     color: white;
     padding: 4px 11px;
     border-radius: 3px;
-    background-color: #00000085;
+    background-color: #0000004f;
 }
 
-.second-sec {
+.first-sec {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,16 +141,17 @@ nav .btn {
     gap: 10px;
     margin: auto;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
-.txt{
+.txt {
     display: flex;
     flex-direction: column;
     width: 450px;
     gap: 15px;
 }
 
-.txt span:nth-of-type(1){
+.txt span:nth-of-type(1) {
     font-size: 35px;
     font-weight: 800;
 }
@@ -177,21 +176,101 @@ nav .btn {
     right: 80px;
 }
 
+#small-txt {
+    font-size: 16px;
+}
+
+.second-sec {
+    flex-direction: row-reverse;
+}
+
+#sec-video {
+    width: 33.9em;
+    top: 79.5px;
+}
+
+.third-sec {
+    flex-direction: row-reverse;
+}
+
+.fourth-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.fourth-sec h1 {
+    padding: 20px 20px 40px 20px;
+    font-weight: 900;
+}
+
+.fourth-sec .questions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fourth-sec .questions span {
+    font-weight: 500;
+}
+
+.fourth-sec .questions img {
+    width: 1.8em;
+}
+
+.fourth-sec .questions .question {
+    width: 60vw;
+    height: 8vh;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(44, 44, 44);
+}
+
+.fourth-sec .questions .question:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+.mar-top {
+    margin: 25px 0;
+    text-align: center;
+}
+
 /* Media Queries */
-@media only screen and (max-width:1100px){
-    .txt{
+@media only screen and (max-width:1100px) {
+    .txt {
         margin-top: 50px;
         text-align: center;
     }
 
     .tv img {
-        width: 30em;
+        width: 25em;
     }
-    
+
     .tv video {
         width: 23em;
         right: 50px;
         top: 70px;
+    }
+
+    #sec-video {
+        width: 20.5em;
+        top: 51px;
+    }
+
+    .fourth-sec .questions span {
+        font-size: 14px;
+    }
+
+    .fourth-sec .questions img {
+        width: 1.4em;
     }
 }
 
@@ -237,14 +316,14 @@ nav .btn {
         padding: 8px 15px;
     }
 
-    .txt{
+    .txt {
         width: 300px;
     }
-    
-    .txt span:nth-of-type(1){
+
+    .txt span:nth-of-type(1) {
         font-size: 23px;
     }
-    
+
     .txt span:nth-of-type(2) {
         font-size: 12px;
     }
@@ -254,11 +333,42 @@ nav .btn {
         z-index: 10;
         width: 18em;
     }
-    
+
     .tv video {
         position: absolute;
         width: 13em;
         left: 39.5px;
         top: 46.5px;
+    }
+
+    #small-txt {
+        font-size: 13px;
+    }
+
+    #sec-video {
+        width: 15em;
+        top: 35px;
+        left: 8px;
+    }
+
+    .fourth-sec h1 {
+        font-size: 1.2em;
+        padding-bottom: 25px;
+    }
+
+    .fourth-sec .questions span {
+        font-size: 13.5px;
+    }
+
+    .fourth-sec .questions img {
+        width: 1.2em;
+    }
+
+    .mar-top {
+        font-size: 13.5px;
+    }
+
+    .fourth-sec .member-detail input {
+        width: 20em;
     }
 }
