@@ -113,6 +113,7 @@ nav .btn {
     color: white;
     padding: 4px 11px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .red-btn.gt {
@@ -123,6 +124,7 @@ nav .btn {
     color: white;
     padding: 12.2px 20px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #lang {
