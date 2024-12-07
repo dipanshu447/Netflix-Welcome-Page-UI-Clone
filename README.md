@@ -29,8 +29,17 @@ Through this project, I gained insights into:
 ![Screenshot of Netflix Clone](./assets/readme/Screenshot.png)
 
 ### Desktop Preview
+<div style="text-align: center;">
+<video src="./assets/readme/desktop-preview.mp4"
+                    autoplay loop muted></video>
+</div>
 
 ### Mobile Preview
+<div style="text-align: center;">
+<video src="./assets/readme/mobile-preview.mp4" width="200"
+                    autoplay loop muted></video>
+</div>
+
 
 ## How to Use
 - Clone this repository.
