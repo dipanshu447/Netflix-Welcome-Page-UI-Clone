@@ -243,6 +243,45 @@ nav .btn {
     text-align: center;
 }
 
+.footer {
+    padding: 50px;
+    color: white;
+    /* margin: auto; */
+    width: 70vw;
+    gap: 10px;
+}
+
+.footer a {
+    color: white;
+}
+
+.Top{
+    display: flex;
+    padding-left: 78px;
+    padding-bottom: 20px;
+    color: #9c9b9b;
+}
+
+.Top a{    
+    color: #9c9b9b;
+}
+.columns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.columns .column{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    gap: 15px;
+    color: #9c9b9b;
+}
+
+.columns .column a {
+    color: #9c9b9b;
+}
+
 /* Media Queries */
 @media only screen and (max-width:1100px) {
     .txt {
