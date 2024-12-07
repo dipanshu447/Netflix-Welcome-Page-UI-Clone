@@ -1,7 +1,5 @@
 # Netflix-Welcome-Page-UI-Clone
 
-## About the Project
-
 This project is a recreation of Netflix's older welcome page UI, built with HTML and CSS.
 
 The primary goal of this project was to practice front-end development skills, understand how real-world web layouts are designed, and learn the process of building a complete project.
@@ -28,7 +26,7 @@ Through this project, I gained insights into:
 - Replicating a real-world UI to better understand web layouts.
 
 ## Project Showcase
-![Screenshot of Netflix Clone](./assets/for%20readme.md/Screenshot.png)
+![Screenshot of Netflix Clone](./assets/readme/Screenshot.png)
 
 ### Desktop Preview
 
