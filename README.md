@@ -29,7 +29,7 @@ Through this project, I gained insights into:
 ![Screenshot of Netflix Clone](./assets/readme/Screenshot.png)
 
 ### Desktop Preview
-![Video Preview of Desktop preview](https://github.com/dipanshu447/Netflix-Welcome-Page-UI-Clone/blob/main/assets/readme/desktop-preview.gif)
+![Video Preview of Desktop preview](./assets/readme/desktop-preview.mp4)
 
 ### Mobile Preview
 <div style = "text-align: center;"> 
