@@ -246,28 +246,30 @@ nav .btn {
 .footer {
     padding: 50px;
     color: white;
-    /* margin: auto; */
-    width: 70vw;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 62vw;
+    gap: 20px;
 }
 
 .footer a {
     color: white;
 }
 
-.Top{
-    display: flex;
-    padding-left: 78px;
-    padding-bottom: 20px;
+.Top {
     color: #9c9b9b;
 }
 
 .Top a{    
     color: #9c9b9b;
 }
+
 .columns{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
 }
 
 .columns .column{
@@ -275,7 +277,7 @@ nav .btn {
     flex-direction: column;
     font-size: small;
     gap: 15px;
-    color: #9c9b9b;
+    color: #9c9b9b;   
 }
 
 .columns .column a {
@@ -310,6 +312,13 @@ nav .btn {
 
     .fourth-sec .questions img {
         width: 1.4em;
+    }
+}
+
+@media only screen and (max-width:813px){
+    .columns{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
     }
 }
 
@@ -404,10 +413,30 @@ nav .btn {
     }
 
     .mar-top {
-        font-size: 13.5px;
+        font-size: 13px;
     }
 
     .fourth-sec .member-detail input {
         width: 20em;
+    }
+
+    .columns{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .columns{
+        grid-template-columns: 1fr;
+    }
+
+    .Top {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .Top {
+        font-size: 0.88em;
     }
 }
