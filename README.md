@@ -44,5 +44,3 @@ This project is for educational and learning purposes only. It’s a static clon
 
 ## Feedback
 I’d love to hear your feedback! Feel free to reach out or suggest improvements.
-
-> *Working on this clone has been an incredible learning experience, and I look forward to creating real-world projects in the future instead of clones!*
