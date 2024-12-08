@@ -40,6 +40,7 @@ Through this project, I gained insights into:
 
 ## How to Use
 - Clone this repository.
+
     ``` bash
     git clone https://github.com/dipanshu447/Netflix-Welcome-Page-UI-Clone.git
     ```
