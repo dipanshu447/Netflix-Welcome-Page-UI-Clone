@@ -29,20 +29,20 @@ Through this project, I gained insights into:
 ![Screenshot of Netflix Clone](./assets/readme/Screenshot.png)
 
 ### Desktop Preview
-![Video Preview of Desktop preview](./assets/readme/desktop-preview.mp4)
+![Video Preview of Desktop preview](./assets/readme/desktop-preview.gif)
 
 ### Mobile Preview
 <div style = "text-align: center;"> 
-    <img src = "https://github.com/dipanshu447/Netflix-Welcome-Page-UI-Clone/blob/main/assets/readme/mobile-preview.gif" width="200">
+    <img src = "./assets/readme/mobile-preview.gif" width="200">
 </div>
 
 
 
 ## How to Use
 - Clone this repository.
-``` bash
-git clone https://github.com/dipanshu447/Netflix-Welcome-Page-UI-Clone.git
-```
+    ``` bash
+    git clone https://github.com/dipanshu447/Netflix-Welcome-Page-UI-Clone.git
+    ```
 - Open index.html in your browser.
 
 ## Note
