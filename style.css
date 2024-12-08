@@ -32,7 +32,7 @@ nav .btn {
     gap: 8px;
 }
 
-.main {
+main {
     height: 70vh;
     background-image: url(./assets/images/background.jpg);
     background-position: center center;
@@ -41,7 +41,7 @@ nav .btn {
     position: relative;
 }
 
-.main .box {
+main .box {
     width: 100%;
     height: 70vh;
     position: absolute;
@@ -245,7 +245,7 @@ nav .btn {
     text-align: center;
 }
 
-.footer {
+footer {
     padding: 50px;
     color: white;
     display: flex;
@@ -256,7 +256,7 @@ nav .btn {
     gap: 20px;
 }
 
-.footer a {
+footer a {
     color: white;
 }
 
